@@ -120,6 +120,19 @@ export const INTEGER_WORD_DICTIONARY: { [word: string]: number } = {
     ten: 10,
     eleven: 11,
     twelve: 12,
+    // KR
+    '일': 1,
+    '이': 2,
+    '삼': 3,
+    '사': 4,
+    '오': 5,
+    '육': 6,
+    '칠': 7,
+    '팔': 8,
+    '구': 9,
+    '십': 10,
+    '십일': 11,
+    '십이': 12,
 };
 
 export const ORDINAL_WORD_DICTIONARY: { [word: string]: number } = {
@@ -189,6 +202,14 @@ export const TIME_UNIT_DICTIONARY: { [word: string]: OpUnitType } = {
     yr: "year",
     year: "year",
     years: "year",
+    // KR
+    '초':'second',
+    '분':'minute',
+    '시':'hour',
+    '일':'d',
+    '주':'week',
+    '월':'month',
+    '년':'year',
 };
 
 //-----------------------------
